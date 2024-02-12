@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Colt : RangedWeapon
 {
+
     protected override void Start()
     {
         base.Start();
-        PlayerInputAction= Input.GetButtonDown;
+        PlayerInputAction = Input.GetButtonDown;
     }
+
 }
